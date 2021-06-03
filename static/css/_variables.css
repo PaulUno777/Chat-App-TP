@@ -1,0 +1,51 @@
+/*==custum font import=======*/
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+/*==variables -- fonts=======*/
+:root {
+    --body-font: "poppins", sans-serif;
+    --big-font-size: 3rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .75rem;
+    --header-height: 3rem;
+    --font-semi: 600;
+    --font-bold: 700;
+    --border-b: 0 0 1px 0 solid #717c92;
+    --border-b1: 1px solid #1e151f9a;
+    --border-b2: 3px solid var(--bg-color-dark);
+    --box-shade: box-shadow: 0 0 128px 0 rgba(0,0,0,0.1), 0 32px 64px -48px rgb(0,0,0,0.5);
+}
+
+/*==variables -- coulors=======*/
+:root {
+    --first-color-light: #ffee56;
+    --first-color: #FC8D31;
+    --first-color-alt: #BC470A;
+    --active-color: #047C61;
+    --white-color: #eef7ffd3;
+    --bg-color-dark:#231F20;
+    --bg-color-light:#E5E6E8;
+    --dark-color: #101010;
+    --dark-color-light: #606060;
+    --tansparent-color: #ddc99eb0;
+    --gray-color: #9b9b9c;
+    --purple-gradient: linear-gradient(to top, #7F3870, #AE74A1);
+    --green-gradient: linear-gradient(to top, #0D7059, #03C99E);
+    --pink-gradient: linear-gradient(to top, #F0445E, #EE7172);
+    --ember-gradient:linear-gradient(to top, var(--first-color-alt), var(--first-color));
+}
+
+@media screen and (min-width: 400px){
+    :root {
+        --big-font-size: 6rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .815rem;
+    }
+}
